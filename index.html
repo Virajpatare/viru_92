@@ -1,2 +1,64 @@
-the website is under construction
-we will back soon 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Music Player</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #1e1e2f;
+      color: white;
+      text-align: center;
+      padding: 2rem;
+    }
+    h1 {
+      color: #00ffcc;
+    }
+    .player {
+      margin: 2rem auto;
+      background: #2e2e3e;
+      padding: 1rem;
+      border-radius: 10px;
+      width: 300px;
+    }
+    audio {
+      width: 100%;
+      margin-top: 1rem;
+    }
+    .song-title {
+      margin-top: 1rem;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>🎶 My Music Player</h1>
+
+  <div class="player">
+    <div class="song-title">Song 1: Chill Vibes</div>
+    <audio controls>
+      <source src="songs/song1.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+  </div>
+
+  <div class="player">
+    <div class="song-title">Song 2: Uplifting Tune</div>
+    <audio controls>
+      <source src="songs/song2.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+  </div>
+
+  <div class="player">
+    <div class="song-title">Song 3: Smooth Beat</div>
+    <audio controls>
+      <source src="songs/song3.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+  </div>
+
+</body>
+</html>
